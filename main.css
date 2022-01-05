@@ -1,5 +1,21 @@
+
 #description1{
     content: "\a";
     white-space: pre;
-    
-}
+    }
+
+:root{
+    background-color: #0a192f;
+    color: white;
+    margin: 0
+    }
+
+body{
+    margin: 5px;
+    font-family: "Oswald", sans-serif;
+    }
+
+#intro{
+    background-color: black;
+    text-align: center;
+    }
