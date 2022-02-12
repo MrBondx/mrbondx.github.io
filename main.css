@@ -13,22 +13,12 @@ body{
     font-family: "Oswald", sans-serif;
     font-size: medium;
     background-color:#0a192f;
+    color: #fff;
     
     }
 /*Custom Navbar Start******************************************************************************************************/
 /*
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-}
 */
 
 li {
@@ -45,6 +35,7 @@ a {
 
 .navbar {
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     width: 100%;
@@ -175,21 +166,10 @@ a {
 
 /*Custom Navbar End*******************************************************************************************************/
 
-
-
-
-
-/*
-.navbar{
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-*/
-
 #intro{
     position: fixed;
-    top: 60px;
+    top: 65px;
+    z-index: 0;
     width: 100%;
     left:0;
     height: 5px;
@@ -201,6 +181,11 @@ a {
 .logo-title{
     margin-left: 50px;
     }
+
+.casing{
+    margin-top: 80px;
+}
+
 #box{
     
     display: flex;
@@ -257,4 +242,8 @@ hr{
     width: .5px;
     height: 30%;
     
+}
+
+.dropdown-menu{
+    font-size: 16px;
 }

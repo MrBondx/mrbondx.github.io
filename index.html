@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>MrBondx</title>
-
-        <!--Meta tags-->
+    <head>        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--Bootstrap CSS-->
@@ -13,22 +10,22 @@
         <!--CSS-->
         <link rel="stylesheet" href="main.css">
         <!--script type="text/javascript" src="main.js"></script -->
-        
+        <title>MrBondx</title>
     </head>
     <body>     
 
       <header class="header">
          <!--Custom Navbar CSS Start-->
         <nav class="navbar">
-            <a href="#" class="nav-logo">MrBondX</a>
+            <a id="logo" href="#" class="nav-logo">MrBondX</a>
             <ul class="nav-menu">
-                <li class="nav-item">
+                <li id="home" class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
+                <li id="about" class="nav-item">
                     <a href="#" class="nav-link">About</a>
                 </li>
-                <li class="nav-item">
+                <li id="contact" class="nav-item">
                     <a href="#" class="nav-link">Contact</a>
                 </li>
                 <!--Bootstrap Dropdown-->
@@ -36,7 +33,7 @@
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Portfolio
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <div id="drop" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a id="js" class="dropdown-item" href="#">Javascript</a>
                     <a id="react" class="dropdown-item" href="#">React</a>
                     <a id="python" class="dropdown-item" href="#">Python-Django</a>
@@ -57,7 +54,7 @@
         <div id="intro">    </div>
 
       </header>
-             
+        <div id="front_page" class="casing">
         <div id="box" class="container-fluid">
           
           <div class="sides"><hr>Welcome<hr></div>
@@ -99,8 +96,14 @@
           </div>
           <div class="sides">Hello <hr></div>
         </div>
-        <div id="about_div"><div>
-        <div id="contact_div"><div>
+        </div>
+        <div id="about_div" class="casing"><h1>About Info</h1></div>
+        <div id="contact_div" class="casing"><h1>Contact Info</h1></div>
+        <!--Portfolio Dropdown pages-->
+        <div id="js_div" class="casing"><h1>Javascript Info</h1></div>
+        <div id="react_div" class="casing"><h1>React Info</h1></div>
+        <div id="python_div" class="casing"><h1>Python Info</h1></div>
+        
        
         <!--Scripts added to bottom of page to allow for faster page loading -->
         <script src="main.js"></script>
