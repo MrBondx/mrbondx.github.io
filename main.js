@@ -43,6 +43,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         python_page.style.display = 'none'
         js_page.style.display = 'none'
         react_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     home.addEventListener('click', (event)=>{
@@ -53,6 +56,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         python_page.style.display = 'none'
         js_page.style.display = 'none'
         react_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     logo.addEventListener('click', (event)=>{
@@ -63,6 +69,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         python_page.style.display = 'none'
         js_page.style.display = 'none'
         react_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     contact.addEventListener('click', (event)=>{
@@ -73,6 +82,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         python_page.style.display = 'none'
         js_page.style.display = 'none'
         react_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     js.addEventListener('click', (event)=>{
@@ -83,6 +95,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         about_info.style.display = 'none'
         front_page.style.display = 'none'
         contact_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     react.addEventListener('click', (event)=>{
@@ -93,6 +108,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         about_info.style.display = 'none'
         front_page.style.display = 'none'
         contact_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
     python.addEventListener('click', (event)=>{
@@ -103,6 +121,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
         about_info.style.display = 'none'
         front_page.style.display = 'none'
         contact_page.style.display = 'none'
+
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
     })
 
 
