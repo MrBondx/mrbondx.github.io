@@ -69,9 +69,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         python_page.style.display = 'none'
         js_page.style.display = 'none'
         react_page.style.display = 'none'
-
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
     })
 
     contact.addEventListener('click', (event)=>{
